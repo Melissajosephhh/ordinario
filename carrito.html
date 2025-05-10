@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<!-- tipografias -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Cal+Sans&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <script src="https://unpkg.com/feather-icons"></script>
+
+	
+	<title> Lucky Charm | Carrito </title>
+</head>
+<body>
+
+	<header class="container">
+		
+<nav class="navbar navbar-expand-lg navbar-light">
+    <!-- Brand -->
+    <a class="navbar-brand" href="index.html">
+        <img class="animate__animated animate__fadeInDown" src="images/logotipo_Lucky.png" width="125px" alt="Logo">
+    </a>
+
+    <!-- Navbar links -->
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link" href="productos.html">Productos</a></li>
+            <li class="nav-item"><a class="nav-link" href="personalizacion.html">Personalización</a></li>
+            <li class="nav-item"><a class="nav-link" href="promociones.html">Promociones</a></li>
+            <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+            <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+		 	<li class="nav-item"><a class="nav-link" href="cuenta.html">Cuenta</a></li>
+
+            <li class="nav-item">
+                <a href="carrito.html" class="Nav-car">
+                    <i data-feather="shopping-cart" width="30"></i> <!-- Feather shopping cart icon -->
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+	
+
+
+	</header>
+
+<br>
+	
+
+	<br>
+<section1>
+  <div class="left">
+    <div class="formulario">
+<h1 class="white-text"><strong>Tu carrito</strong></h1>
+      <p>
+        Recibirás un correo de confirmación de tu compra.<br><br>
+        También te enviaremos los detalles de tu cita y las instrucciones para cancelar o modificar tu reserva si lo necesitas.
+      </p>
+      <form action="#" method="POST" enctype="multipart/form-data">
+<label for="tipo" style="color: white;">Producto:</label>
+        <select id="tipo" name="tipo" required>
+          <option value="anillo">Anillo</option>
+          <option value="collar">Collar</option>
+        </select>
+
+       <label for="tipo" style="color: white;">Nombre completo:</label>
+        <input type="text" id="nombre" name="nombre" required placeholder="Ej. Juan Pérez">
+
+       <label for="tipo" style="color: white;">Cantidad:</label>
+        <input type="number" id="cantidad" name="cantidad" min="1" max="10" placeholder="Ej. 3" required>
+
+      <label for="tipo" style="color: white;">Dirección de envío:</label>
+        <input type="text" id="direccion" name="direccion" maxlength="100" placeholder="Especifique dirección" required>
+
+     <label for="tipo" style="color: white;">Tipo de tarjeta:</label>
+        <select id="tarjeta" name="tarjeta" required>
+          <option value="credito">Crédito</option>
+          <option value="debito">Débito</option>
+        </select>
+
+    <label for="tipo" style="color: white;">Número de tarjeta:</label>
+        <input type="text" id="numero_tarjeta" name="numero_tarjeta" maxlength="20" required>
+
+        <label for="tipo" style="color: white;">CVV:</label>
+        <input type="text" id="cvv" name="cvv" maxlength="5" required>
+      </form>
+    </div>
+  </div>
+
+  <div class="right">
+    <div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-8">
+      <div class="img-form">
+        <div class="ficha-tec">
+          <br>
+        <h3 style="color: white;">Anillo Eternos </h3>
+          <br>
+     <h3 style="color: white;">Especificaciones de compra&nbsp;</h3>
+          <br>
+     <p style="color: white;">Material: Acero inoxidable </p>
+          <br>
+   <p style="color: white;">- Peso: 5 gramos<br>
+            - Tamaño: Ajustable<br>
+            - Grosor: 1,5 mm<br>
+            - Longitud: 55 mm </p>
+          <br>
+         <p style="color: white;">Detalles: - Banda: Delgada y cómoda, con diseño de nervaduras<br>
+            - Inscripción interior: "Amor Eterno" </p>
+          <br>
+<p style="color: white;">Todos los personalizados tardan de 9 a 12 DÍAS HÁBILES</p>
+          <br>
+<h3 style="color: white;">Precios con IVA</h3>
+<label for="grabado" style="color: white;"><br>SUBTOTAL:</label>
+    <h3 style="color: white;">$530.00</h3>
+<button type="submit" class="btn btn-primary" style="background-color: #ba4c7d; color: white; border: 2px solid #ba4c7d;">ACTUALIZA TU CARRITO&nbsp;</button>
+<button type="submit" class="btn btn-success" style="background-color: #ba4c7d; color: white; border: 2px solid #ba4c7d;">PAGAR&nbsp;</button>
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-md-4">
+      <div class="right">
+        <!-- You can place an image here -->
+<img src="images/carrito.png" alt="Resumen" class="img-fluid" style="max-width: 250%; height: auto;">
+      </div>
+    </div>
+  </div>
+</div>
+
+    </div>
+  </div>
+	</section1>
+
+<br>
+	<h2 id="prod-sim" style="color: #ba4c7d; text-align: center;">
+  <strong>CONTINUAR COMPRANDO</strong>
+</h2>
+
+	<br>
+	<section2 class="section2">
+    <div class="container">
+        <div class="row Ban-Productos-gen">
+            <div class="col-md-3 prod">
+                <a href=""><img src="images/rosa.png" class="img-prod img-fluid"> </a> <br>
+                <h4> BRAZALETE FLORAL </h4> <br>
+                <h4>$180.00</h4>
+                <a href=""> <button class="btn btn-primary btn-block"> AGREGAR A CARRITO</button></a>
+            </div>
+
+            <div class="col-md-3 prod">
+                <a href=""><img src="images/azul.png" class="img-prod img-fluid"> </a> <br>
+                <h4> BRAZALETE LUCKY CHARM </h4> <br>
+                <h4>$280.00</h4>
+                <a href=""> <button class="btn btn-primary btn-block"> AGREGAR A CARRITO</button></a>
+            </div>
+
+            <div class="col-md-3 prod">
+                <a href=""><img src="images/verde.png" class="img-prod img-fluid"> </a> <br>
+                <h4> BRAZALETE UNIÓN </h4> <br>
+                <h4>$320.00</h4>
+                <a href=""> <button class="btn btn-primary btn-block"> AGREGAR A CARRITO</button></a>
+            </div>
+
+            <div class="col-md-3 prod">
+                <a href=""><img src="images/amarillo.png" class="img-prod img-fluid"> </a> <br>
+                <h4> BRAZALETE TORNILLO </h4> <br>
+                <h4>$530.00</h4>
+                <a href=""> <button class="btn btn-primary btn-block"> AGREGAR A CARRITO</button></a>
+            </div>
+        </div>
+    </div>
+</section2>
+
+<br>
+	<section class="pagination-section">
+    <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-center">
+            <li class="page-item">
+                <a class="page-link" href="cuenta.html" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                </a>
+            </li>
+<li class="page-item"><a class="page-link" href="index.html">1</a></li>
+<li class="page-item"><a class="page-link" href="productos.html">2</a></li>
+<li class="page-item"><a class="page-link" href="personalizacion.html">3</a></li>
+<li class="page-item"><a class="page-link" href="promociones.html">4</a></li>
+<li class="page-item"><a class="page-link" href="blog.html">5</a></li>
+<li class="page-item"><a class="page-link" href="contacto.html">6</a></li>
+<li class="page-item"><a class="page-link" href="cuenta.html">7</a></li>
+<li class="page-item"><a class="page-link" href="carrito.html">8</a></li>
+
+            <li class="page-item">
+                <a class="page-link" href="contacto.html" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</section>
+			<br>	
+		
+	
+	
+	
+<footer class="footer">
+
+	<div class="row foot-1">
+			<div class="col-lg-1 col-sm-1  ">
+				
+			</div>
+
+			<div class="col-lg-2  col-sm-2 list">
+<img class="logo img-fluid animate__animated animate__fadeIn" src="images/logotipo_Lucky.png" alt="Logo">
+			</div>
+			<br>
+
+			<div class="col-lg-2  col-sm-2 lis1-foot">
+				<dl class="foot-list">
+					  <dt>UNETE A NUESTRO PROGRAMA</dt>
+					  <br>
+					  <dd>Inscríbete a nuestro newsletter y obtén notificaciones sobre nuevos productos y promociones.</dd>
+					  
+					  
+				</dl>
+			</div>
+
+			<div class="col-lg-2  col-sm-2 lis1-foot ">
+				<dl class="foot-list">
+					  <dt>ATENCIÓN AL CLIENTE</dt>
+					  <br>
+					  <dd><a href="">Horario de atención de Lunes a Viernes de 09:00 a 18:00 h.</a></dd>
+					  <dd><a href="">Política de privacidad</a></dd>
+					  <dd><a href="">Reportar violaciones de Marca</a></dd>
+					  <dd><a href="">Descuento Estudiante</a></dd>
+					  
+				</dl>
+			</div>
+
+
+			
+			<div class="col-lg-2  col-sm-2 lis1-foot ">
+				<dl class="foot-list">
+					  <dt>NOSOTROS</dt>
+					  <br>
+					  <dd><a href="">Nuestra Historia</a></dd>
+					  <dd><a href="">Joyería Responsable</a></dd>
+					  <dd><a href="">Protección de la marcas</a></dd>
+					  <dd><a href="">Términos y Condiciones</a></dd>
+					  
+				</dl>
+			</div>
+			
+			<div class="col-lg-2 col-sm-2  lis1-foot ">
+				<dl class="foot-list">
+					  <dt >AYUDA</dt>
+					  <br>
+					  <dd><a href="">Centro de ayuda</a></dd>
+					  <dd><a href="">Click and Collect</a></dd>
+					  <dd><a href="">Mis Pedidos</a></dd>
+					  <dd><a href="">Devoluciones</a></dd>
+					  
+				</dl>
+			</div>
+
+			
+			
+
+			<div class="col-lg-1 col-sm-1  col-sm-1">
+				
+
+			</div>
+
+			<div class="row">
+
+				<div class="col-lg-12  col-sm-12 col-redesSociales"> 
+					<ul class="links-redes">
+    <li> <a href="https://www.facebook.com" target="_blank"> <img src="images/facebook.png" class="logos-redes"></a></li>
+    <li> <a href="https://x.com" target="_blank"> <img src="images/x.png" class="logos-redes"></a></li>
+    <li> <a href="https://www.instagram.com" target="_blank"> <img src="images/instagram.png" class="logos-redes"></a></li>
+    <li> <a href="https://www.tiktok.com" target="_blank"> <img src="images/tik-tok.png" class="logos-redes"></a></li>
+    <li> <a href="https://www.youtube.com" target="_blank"> <img src="images/youtube.png" class="logos-redes"></a></li>
+    <li> <a href="https://www.pinterest.com" target="_blank"> <img src="images/pinterest.png" class="logos-redes"></a></li>
+</ul>
+				</div>
+
+			
+			
+		</div>
+
+
+<br>
+		
+		</div>
+	</footer>
+
+
+<script>
+    // Inicializa Feather Icons
+    feather.replace();
+</script>
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
